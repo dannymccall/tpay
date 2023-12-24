@@ -1,12 +1,18 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-
+import RootStack from './RootStack';
+import ErrorMessageCard from './Components/ErrorMessageCard';
+import SuccessMessageCard from './Components/SuccessMessageCard'
+import DashBoard from './screens/auth/Dashboard';
+import Details from './screens/auth/Details';
+import Picture from './screens/auth/Camera';
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    //  <RootStack />
+    //  <DashBoard />
+    // <SuccessMessageCard message="Hello"/>
+    // <Details />
+    <Picture />
   );
 }
 
